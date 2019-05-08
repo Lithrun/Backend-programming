@@ -11,7 +11,7 @@
 	<repositories>
 		<repository>
 			<id>Nickernator-friendspammer-helper</id>
-			<url>https://packagecloud.io/priv/7b03501f0deed41fabf6dbe66086cece45c6892953f815b5/Nickernator/friendspammer-helper/maven2</url>
+			<url>https://packagecloud.io/priv/576f36b7d1aee603f117079c2bd8b5653287d2aab4fdedbb/Nickernator/friendspammer-helper/maven2</url>
 			<releases>
 				<enabled>true</enabled>
 			</releases>
