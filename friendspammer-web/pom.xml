@@ -8,6 +8,19 @@
 	<artifactId>friendspammer-web</artifactId>
 	<version>1.0-SNAPSHOT</version>
 
+	<repositories>
+		<repository>
+			<id>Nickernator-friendspammer-helper</id>
+			<url>https://packagecloud.io/priv/7b03501f0deed41fabf6dbe66086cece45c6892953f815b5/Nickernator/friendspammer-helper/maven2</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
+
 	<build>
 		<plugins>
 			<plugin>
@@ -57,5 +70,8 @@
 			<artifactId>helper</artifactId>
 			<version>1.0-SNAPSHOT</version>
 		</dependency>
+
+
 	</dependencies>
+
 </project>
