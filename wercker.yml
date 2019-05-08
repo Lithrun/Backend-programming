@@ -13,6 +13,10 @@ build:
   # https://devcenter.wercker.com/development/steps/
   steps:
     # https://github.com/wercker/step-maven
+    - script:
+        name: Install pre-reqs
+        code: |
+          mvn -f friendspammer-web/pom.xml
     - wercker/maven:
       goals: install
       cache_repo: true
