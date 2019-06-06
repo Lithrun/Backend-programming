@@ -27,9 +27,9 @@
 <tbody>
 <%
 
-	MongoClientURI uri = new MongoClientURI(Configuration.dbUrl);
+	MongoClientURI uri = new MongoClientURI(Configuration.DBURL);
 	MongoClient mongoClient = new MongoClient(uri);
-	MongoDatabase db = mongoClient.getDatabase(Configuration.dbName);
+	MongoDatabase db = mongoClient.getDatabase(Configuration.DBNAME);
 	
 	MongoCollection<Document> c = db.getCollection("email");
 	
